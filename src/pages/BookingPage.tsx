@@ -231,7 +231,7 @@ const BookingPage: React.FC = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="contoh: XI Analis 1"
+                  placeholder="contoh: XA / Persama / Keu"
                   value={form.kelas_divisi}
                   onChange={(e) => setForm({ ...form, kelas_divisi: e.target.value })}
                   className={`w-full px-4 py-3 rounded-xl border-2 ${
